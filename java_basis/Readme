@@ -1,0 +1,2 @@
+1. MapSort.java：基于Map的Key和Value排序
+思路：利用Collections.sort函数，自定义Comparator的比较规则
