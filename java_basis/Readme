@@ -1,2 +1,7 @@
 1. MapSort.java：基于Map的Key和Value排序
 思路：利用Collections.sort函数，自定义Comparator的比较规则
+2. MapTraverse.java：map的四种遍历方式
+   a.通过map.keySet二次取值,速度最慢
+   b.通过map.entrySet使用iterator遍历key和value
+   c.通过map.entrySet遍历key和value，适合大数据遍历，速度快
+   d.通过map.value()遍历素有的value，不可以遍历key
