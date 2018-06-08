@@ -1,4 +1,4 @@
-package java_basis_map;
+package Java.Demo.Map;
 
 import java.util.ArrayList;
 import java.util.Collections;
